@@ -30,7 +30,7 @@ def save_to_json(data, output_file):
         json.dump(data, jsonfile, indent=4)
 
 def main():
-    jsonl_file = "sampled_dataset.jsonl"  # replace with your actual JSONL file name
+    jsonl_file = "sampled_dataset.jsonl" 
     output_file = "dev_refactoring_data.json"
     
     data = extract_developer_refactorings(jsonl_file)
