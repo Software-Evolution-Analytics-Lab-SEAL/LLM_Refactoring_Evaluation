@@ -57,7 +57,7 @@ def save_to_json(data, output_file):
 
 def main():
     directory = "llm_refactoring_types"
-    jsonl_file = "Starcoder2-Results/full_dataset0_processed.jsonl"  # replace with your actual JSONL file name
+    jsonl_file = "Starcoder2-Results/full_dataset0_processed.jsonl"  # replace with your JSONL file name containing LLM-generated refactorings
     output_file = "llm_refactoring_data.json"
     
     files_dict = extract_files_from_jsonl(jsonl_file)
