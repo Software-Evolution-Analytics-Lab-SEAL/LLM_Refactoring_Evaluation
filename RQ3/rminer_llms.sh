@@ -3,7 +3,7 @@
 # Define the paths
 input_jsonl_file="$1"
 rminer_home="$2"
-output_dir="refactoring_types"
+output_dir="llm_refactoring_types"
 mkdir -p "$output_dir"
 
 # Check if input file and rminer_home are provided
