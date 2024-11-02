@@ -27,3 +27,4 @@ Then run `python3 save_refactoring_types.py` and `python3 save_refactoring_types
 Finally, run `python3 rq3.py`
 
 ## RQ4
+Run `python3 inference_prompt_engineering.py python3 inference.py -start_line 1 -device {device} -output_file {output_file} -mode {chain_of_thought} or {one_shot}`
