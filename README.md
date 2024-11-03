@@ -1,9 +1,5 @@
 # An Empirical Study on the Code Refactoring Capability of Large Language Models
 
-## Setup
-### Prerequisites
-- Python3
-
 ## RQ1
 To generate refactorings, run the following code:
 ```
