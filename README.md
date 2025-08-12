@@ -9,6 +9,8 @@ We used the following LLMs from HuggingFace to perform refactoring generation:
 - StarCoder2-15B-Instruct (https://huggingface.co/bigcode/starcoder2-15b-instruct-v0.1)
 - Llama-3-8B-Instruct (https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct)
 
+We also use the GPT-4o API from OpenAI (https://platform.openai.com/docs/models/gpt-4o)
+
 
 ## RQ1
 To generate refactorings, run the following code:
