@@ -1,5 +1,15 @@
 # An Empirical Study on the Code Refactoring Capability of Large Language Models
 
+
+## Prerequisites
+We tested on Python 3.10 with a CUDA-enabled GPU for faster inference.
+
+### Models
+We used the following LLMs from HuggingFace to perform refactoring generation:
+- StarCoder2-15B-Instruct (https://huggingface.co/bigcode/starcoder2-15b-instruct-v0.1)
+- Llama-3-8B-Instruct (https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct)
+
+
 ## RQ1
 To generate refactorings, run the following code:
 ```
